@@ -17,4 +17,4 @@ This repository provides the official Homebrew formula for installing the KubeCa
 See the LICENSE file for usage restrictions. Redistribution of the CLI binary is not permitted.
 
 ## Support
-For issues or feature requests, please visit [https://kubekanvas.io](https://kubekanvas.io) or open an issue in this repository.
+For issues or feature requests, please visit [https://www.kubekanvas.io](https://www.kubekanvas.io) or open an issue in this repository.

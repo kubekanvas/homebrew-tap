@@ -1,6 +1,6 @@
-# KubeCanvas Homebrew Tap
+# KubeKanvas Homebrew Tap
 
-This repository provides the official Homebrew formula for installing the KubeCanvas CLI on macOS.
+This repository provides the official Homebrew formula for installing the KubeKanvas CLI on macOS.
 
 ## Installation
 

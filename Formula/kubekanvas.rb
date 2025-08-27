@@ -6,9 +6,9 @@ class Kubekanvas < Formula
   version "1.0.0"
 
   def install
-    puts Dir["*"]
-    bin.install "kubekanvas"
-    prefix.install "../LICENSE"
+  downloaded = Dir["*"].find { |f| f.include?("kubekanvas") }
+  bin.install downloaded => "kubekanvas"
+  prefix.install "../LICENSE"
   end
 
   test do

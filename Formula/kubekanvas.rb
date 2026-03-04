@@ -9,7 +9,7 @@ class Kubekanvas < Formula
     sha256 "d5daa8c58dc2c30c6096274eecedcd1ba60b68e8c13dee8bbaab8f24b846fafd"
   else
     url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/x64/latest/kubekanvas"
-    sha256 "8b04868ed9a9847e8c8127f10e6dad48a2da8f3710804f9c71b65a3b4c05c719"
+    sha256 "f1f4b0bc438b9c85d517721256e6ab2c295d101f7feae5436bedf874c5923eb9"
   end
 
   def install

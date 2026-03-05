@@ -1,15 +1,15 @@
 class Kubekanvas < Formula
   desc "KubeKanvas CLI - Manage your Kubernetes clusters visually"
   homepage "https://www.kubekanvas.io"
-  version "1.0.0"
+  version "68.0.0"
   license :cannot_represent
 
   if Hardware::CPU.arm?
-    url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/arm64/latest/kubekanvas"
-    sha256 "d5daa8c58dc2c30c6096274eecedcd1ba60b68e8c13dee8bbaab8f24b846fafd"
+    url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/arm64/homebrew/kubekanvas"
+    sha256 "1005edc80eb3efe0d8a56e3a2def0ea59114a49703963b8b31d8e527c5261209"
   else
-    url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/x64/latest/kubekanvas"
-    sha256 "f1f4b0bc438b9c85d517721256e6ab2c295d101f7feae5436bedf874c5923eb9"
+    url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/x64/homebrew/kubekanvas"
+    sha256 "19cb29971bafd8a1904b400a6f5a5bddab56230dd193502694cc53847ed5886f"
   end
 
   def install

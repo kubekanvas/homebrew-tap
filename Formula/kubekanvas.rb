@@ -1,26 +1,26 @@
 class Kubekanvas < Formula
   desc "KubeKanvas CLI - Manage your Kubernetes clusters visually"
   homepage "https://www.kubekanvas.io"
-  version "1.8.0"
+  version "1.8.1"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/arm64/homebrew/kubekanvas.tar.gz"
-      sha256 "977dbe44ffff1ded4ddf2a7b02402c17f625d069dac34c329e392b42869ae9fa"
+      sha256 "52d47818e535e4047321db25313ff92b8c3c14b5f59435e18216ca83dff70d77"
     else
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/x64/homebrew/kubekanvas.tar.gz"
-      sha256 "63dccbacde0276db0d2f0781d58d0bc71ffbec2166fe628188dd747b6d2dc235"
+      sha256 "ae987b1bf80891f70ad4e434c0ea8605be60bdbc784f6e454cb7aac38acfa8e6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/arm64/homebrew/kubekanvas.tar.gz"
-      sha256 "4990b5bf661b02a47d4246e48c01d1c54354c9e9baa360d6b430c39aff64f02e"
+      sha256 "a90afa777351e02ad8bfc2db45bc7120703f8df005631abd24feb97eb52d5555"
     else
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/x64/homebrew/kubekanvas.tar.gz"
-      sha256 "94dda5b6e7a24a20d2faf2b9c3d0cce758c8542f4b84c605db34a15baa1ab01e"
+      sha256 "07acda00420ce00131fe093c8c992fa86d3107256db59f4c93f34fc2e3d4749a"
     end
   end
 

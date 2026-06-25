@@ -17,10 +17,10 @@ class Kubekanvas < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/arm64/homebrew/kubekanvas.tar.gz"
-      sha256 "32bd06a521af18afde48337bf07244331a2987f0a4ceca887d57be28472036df"
+      sha256 "80efeda70259629d6082fd59744543af8123fd701c34b581bf23757ee09ae456"
     else
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/x64/homebrew/kubekanvas.tar.gz"
-      sha256 "a6d57d0c7a244462f4c87e71f3808b6a7903d82eedd3662f67c0ee41775f45c3"
+      sha256 "e460ba6cc3f9c76357d92104fe15a4f5b06462e61d00c542111f148eda85f0b2"
     end
   end
 

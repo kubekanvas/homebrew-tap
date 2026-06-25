@@ -7,20 +7,20 @@ class Kubekanvas < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/arm64/homebrew/kubekanvas.tar.gz"
-      sha256 "c749a95dec69d59d41c36040aa735906c647c6b1c7c6468585e5d1945bcee396"
+      sha256 "950c74270e536dbaa2f0f3cd95e062189329bb93170eef0574dfb76dd16369fc"
     else
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/macos/x64/homebrew/kubekanvas.tar.gz"
-      sha256 "b9d5b9a12d8a85d9e740f1cf548725a25358e37f0aa85a61e5a4b26dd624541f"
+      sha256 "3376dc7c8a41ed58b17d4517959f3e8d61d7747bb34ad2513e3e56b14e261a1e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/arm64/homebrew/kubekanvas.tar.gz"
-      sha256 "80efeda70259629d6082fd59744543af8123fd701c34b581bf23757ee09ae456"
+      sha256 "f4087585c347dc692368f9d62ec9e662811a5e4d1c97b13592db3d52fc6aa105"
     else
       url "https://s3.us-east-1.amazonaws.com/downloads.kubekanvas.io/linux/x64/homebrew/kubekanvas.tar.gz"
-      sha256 "e460ba6cc3f9c76357d92104fe15a4f5b06462e61d00c542111f148eda85f0b2"
+      sha256 "188e39e49f8c7899a6a054d59b7e1d08059c57a25697b4becd733d009a953b18"
     end
   end
 
